@@ -16,6 +16,6 @@ public class Student extends Person {
 
     @Override
     public String toString() {
-        return "Student{ name = " + getName() + " age = " + getAge() + ", studentId =" + studentId + "}";
+        return "name = " + getName() + " age = " + getAge() + ", studentId =" + studentId;
     }
 }
